@@ -1,0 +1,128 @@
+(footprint "TVBP06_SW"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2f3646ac-906f-4b1c-a1ba-365d5fb4c4ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TVBP06_SW"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "223ec03a-a735-4395-abdb-7779805a84f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3c52dca-4424-4a79-9424-e8fcd40283d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21785af1-b96d-458a-8b07-94a8086f79fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 1.75)
+		(end 3 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f54230f1-25eb-4074-a629-da828263df07")
+	)
+	(fp_line
+		(start 3 -1.75)
+		(end -3 -1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0991145a-d2a3-4f65-bf70-64c398502679")
+	)
+	(fp_rect
+		(start -1.5 0.75)
+		(end 1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e52acc2d-ef34-499c-90e4-fe38487a2b88")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a888fd2b-e05c-42fb-ba10-abb2e7a8ba91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.25 0)
+		(size 2.4 2.4)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c88afa4-f13a-4338-b1ab-88e0d49cd71b")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 0)
+		(size 2.4 2.4)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b233776-1427-4b93-a240-54f751914eec")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shuji/OneDrive/デスクトップ/robocup/RCJ2026/RCJ2026PCB/Libraries/3dmodels/TVBP06_SW v2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

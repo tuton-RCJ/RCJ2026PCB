@@ -4091,12 +4091,6 @@
 		(uuid "3704bc5a-1965-4ea2-91d7-f15367c88525")
 	)
 	(junction
-		(at 255.27 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4da0858f-1cfa-4cda-aab2-452ab8b65f7f")
-	)
-	(junction
 		(at 247.65 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4131,12 +4125,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b4c18b8-51c3-4edc-8c21-ac4973a912d0")
-	)
-	(junction
-		(at 255.27 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bbf5aa3-a09d-47d0-9e7c-2ce8de1fd450")
 	)
 	(junction
 		(at 113.03 91.44)
@@ -4352,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 22.86) (xy 262.89 25.4)
+			(xy 256.54 22.86) (xy 256.54 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4562,7 +4550,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 33.02) (xy 255.27 33.02)
+			(xy 247.65 33.02) (xy 256.54 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4652,16 +4640,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 33.02) (xy 262.89 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d38dac3-27e2-4529-b263-37f54c7726c0")
-	)
-	(wire
-		(pts
 			(xy 121.92 149.86) (xy 121.92 153.67)
 		)
 		(stroke
@@ -4732,7 +4710,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 22.86) (xy 255.27 22.86)
+			(xy 247.65 22.86) (xy 256.54 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4749,16 +4727,6 @@
 			(type default)
 		)
 		(uuid "c465ea38-896d-4d9d-afdc-a57c89511a57")
-	)
-	(wire
-		(pts
-			(xy 255.27 22.86) (xy 255.27 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e89048-0ca1-4844-8b7a-810b23282ce4")
 	)
 	(wire
 		(pts
@@ -4789,16 +4757,6 @@
 			(type default)
 		)
 		(uuid "cf5dfc95-396a-4b5f-acae-1bed41348bcc")
-	)
-	(wire
-		(pts
-			(xy 255.27 22.86) (xy 262.89 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0b6125e-acae-480e-b34d-571d19846784")
 	)
 	(wire
 		(pts
@@ -6302,75 +6260,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 255.27 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e494461-91be-4832-9bcd-aa321c7036c7")
-		(property "Reference" "C9"
-			(at 256.286 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 256.286 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 256.2352 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 255.27 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9db7f5b0-780b-4737-b484-2662888f09a4")
-		)
-		(pin "1"
-			(uuid "d180127a-aa2a-42d1-b476-a9978e322f70")
-		)
-		(instances
-			(project "02-BOTTOM"
-				(path "/c169a242-17fe-4657-891f-5ce63e4a34fb"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 66.04 149.86 180)
@@ -6899,7 +6788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 118.11 86.36 0)
 			(effects
 				(font
@@ -7014,15 +6903,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 262.89 29.21 0)
+		(at 256.54 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "57fda0d9-be08-4c76-9fa2-9c9542951593")
-		(property "Reference" "C10"
-			(at 263.906 24.384 0)
+		(property "Reference" "C9"
+			(at 257.556 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +6920,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 263.906 26.924 0)
+			(at 257.556 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +6929,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 263.8552 33.02 0)
+			(at 257.5052 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +6938,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 29.21 0)
+			(at 256.54 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +6947,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 262.89 29.21 0)
+			(at 256.54 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +6964,7 @@
 		(instances
 			(project "02-BOTTOM"
 				(path "/c169a242-17fe-4657-891f-5ce63e4a34fb"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8075,7 +7964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Akizuki:TVBP06_SW"
 			(at 224.79 143.51 0)
 			(effects
 				(font
@@ -8994,7 +8883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Akizuki:TVBP06_SW"
 			(at 187.96 143.51 0)
 			(effects
 				(font
@@ -9263,7 +9152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 50.8 165.1 0)
 			(effects
 				(font
