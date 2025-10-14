@@ -152,4 +152,15 @@
 		(uuid "0ce16985-b844-454e-a245-194227c2ffdd")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_3DMODEL_TUTON2026}/FXL1040-220-M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -180,4 +180,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KICAD_3DMODEL_TUTON2026}/T-mini Plus v3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

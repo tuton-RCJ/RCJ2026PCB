@@ -1,10 +1,17 @@
-26652210464571119
+26659252723613111
 Akizuki
 AkizukiSmallRockerSwitchHorizontal
 
 
 0
 5
+3
+Akizuki
+Akizuki_3PSW
+
+
+0
+3
 3
 Akizuki
 BNO055
@@ -21,12 +28,26 @@ FUSE_3557-15
 4
 2
 Akizuki
+Grove_1x04
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
+0
+4
+4
+Akizuki
 M51957B
 
 
 0
 8
 8
+Akizuki
+Molex_SPOX_5268-03A_1x03_P2.50mm_Horizontal
+Molex SPOX Connector System, 5268-03A, 3 Pins per row (https://www.molex.com/pdm_docs/sd/022057045_sd.pdf), generated with kicad-footprint-generator
+connector Molex SPOX horizontal
+0
+3
+3
 Akizuki
 OKL-T6-W12N-C-SMD
 
@@ -41,6 +62,13 @@ S9706
 0
 6
 6
+Akizuki
+SSD1306
+
+
+0
+4
+4
 Akizuki
 T-mini Plus
 

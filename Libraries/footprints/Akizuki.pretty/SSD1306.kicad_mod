@@ -1,0 +1,157 @@
+(footprint "SSD1306"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "611d8852-edec-4694-8bd0-8b35ae38e269")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SSD1306"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "674633ef-1d92-4cb1-9e06-c1e3317bb969")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78004524-12c4-4eed-b5c1-e0dfc60142cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46a53d00-f062-4464-bd37-0d43899770ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -12.7 -13.1)
+		(end 12.7 13.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "58267522-a392-4b40-9224-6d694aa9f87f")
+	)
+	(fp_rect
+		(start -5.08 -13.1)
+		(end 5.08 -10.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "72b36d9d-184a-4c7c-8aac-767d43289ed7")
+	)
+	(fp_rect
+		(start -5.08 -13.1)
+		(end 5.08 -10.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "09b81250-96e1-4acf-85c1-510441594e2a")
+	)
+	(fp_rect
+		(start -12.7 -13.1)
+		(end 12.7 13.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bb7514d3-76e9-4280-85ae-8be32d32502c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce772e0f-9c18-4acd-a45b-b49f0ec0c70c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -11.83)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "178fa2d9-a243-46af-9258-886e07d65741")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 -11.83)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36d434c4-e1ea-4d41-9898-489043beebeb")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 -11.83)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "970c269e-31b4-4be2-8342-02cf90dc029f")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 -11.83)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9553d0a-1d55-48da-9103-ae9e01e4de25")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/shuji/OneDrive/デスクトップ/robocup/RCJ2026/RCJ2026PCB/Libraries/3dmodels/SSD1306_OLED_Display(128x64).step"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
