@@ -48,11 +48,60 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|116011000|79012500|0b3e7325-0e44-4567-9607-96adc4e1718b|1f15e689-83b7-42b4-8a00-b3ada97cd312",
+          ""
+        ],
+        [
+          "clearance|116011000|79512500|8ff6c5d6-9993-4b1c-b76a-f6dd02ca61ae|0b3e7325-0e44-4567-9607-96adc4e1718b",
+          ""
+        ],
+        [
+          "clearance|116011000|80012500|ffcd5c5e-77a7-4ef1-be72-bd22a49d09d2|8ff6c5d6-9993-4b1c-b76a-f6dd02ca61ae",
+          ""
+        ],
+        [
+          "clearance|116011000|80512500|624c0989-3551-4bfe-b931-4ccb2484f131|ffcd5c5e-77a7-4ef1-be72-bd22a49d09d2",
+          ""
+        ],
+        [
+          "clearance|120236000|78687500|7e7086d4-15fc-47ce-9a7b-d595f95ee90b|037f523f-ea46-4cf0-8d78-38accefd73cd",
+          ""
+        ],
+        [
+          "clearance|120236000|79187500|037f523f-ea46-4cf0-8d78-38accefd73cd|c0583474-c50e-440d-bdac-2fb20a0b8a3f",
+          ""
+        ],
+        [
+          "clearance|120236000|79687500|c0583474-c50e-440d-bdac-2fb20a0b8a3f|ba30c0aa-05da-42d7-b0bd-11abb15a69ac",
+          ""
+        ],
+        [
+          "clearance|120236000|80187500|ba30c0aa-05da-42d7-b0bd-11abb15a69ac|621b1ec9-2be6-47ea-9795-7fd5ee94e1ca",
+          ""
+        ],
+        [
+          "hole_clearance|123678500|83070000|5888a30c-c153-4ccb-bc73-5129dbf2daa6|833b36ac-fb68-4cef-9c79-48a0cf210877",
+          ""
+        ],
+        [
+          "hole_clearance|123678500|83070000|5888a30c-c153-4ccb-bc73-5129dbf2daa6|8cfb8e8a-c1e3-4de2-9d46-8b847734af52",
+          ""
+        ],
+        [
+          "hole_clearance|129778500|83070000|861cbc74-1ad6-46ca-95d8-d04d6f305116|16ffb6cf-cd2a-49cd-90cf-16954040efaf",
+          ""
+        ],
+        [
+          "hole_clearance|129778500|83070000|861cbc74-1ad6-46ca-95d8-d04d6f305116|e0744521-532b-4928-b7c9-7fdf0e818a26",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },

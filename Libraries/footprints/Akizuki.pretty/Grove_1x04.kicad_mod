@@ -256,15 +256,16 @@
 		(uuid "bd618877-2990-4b3e-bc89-12834a94ebcb")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Connectors.3dshapes/Grove_1x04.wrl"
+	(model "${KICAD_3DMODEL_TUTON2026}/Grove_L v2.step"
+		(hide yes)
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -3 0)
 		)
 		(scale
-			(xyz 0.3937 0.3937 0.3937)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz -90 -0 -90)
 		)
 	)
 )

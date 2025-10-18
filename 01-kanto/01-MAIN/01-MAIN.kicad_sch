@@ -11402,7 +11402,7 @@
 		(uuid "ff30ca88-ec48-44b0-9702-8f3ca0a2dae2")
 	)
 	(global_label "UART2_TX"
-		(shape output)
+		(shape input)
 		(at 67.31 140.97 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11621,7 +11621,7 @@
 			)
 		)
 	)
-	(global_label "SW4"
+	(global_label "SW2"
 		(shape input)
 		(at 64.77 195.58 180)
 		(fields_autoplaced yes)
@@ -11907,6 +11907,28 @@
 			)
 		)
 	)
+	(global_label "MG90S_L"
+		(shape output)
+		(at 350.52 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a06809e-8195-49c5-ac5e-8780b9531438")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 339.1892 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART1_RX"
 		(shape output)
 		(at 368.3 139.7 0)
@@ -11920,6 +11942,28 @@
 		(uuid "5a404854-d839-4104-8a35-a06379f04d40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 380.5985 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED"
+		(shape input)
+		(at 391.16 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5becc49f-5333-441b-ba25-9b0c83ffebd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 397.5923 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11974,7 +12018,7 @@
 		)
 	)
 	(global_label "UART2_RX"
-		(shape input)
+		(shape output)
 		(at 67.31 138.43 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12127,6 +12171,50 @@
 			)
 		)
 	)
+	(global_label "CAM_LED_R"
+		(shape input)
+		(at 391.16 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a919544-ac9f-4c2e-9fd7-fae4f755fdcd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.6075 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Buzzer"
+		(shape output)
+		(at 391.16 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ad17f19-bd80-432c-a00b-39064a153098")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 400.4952 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART2_RX"
 		(shape input)
 		(at 391.16 38.1 0)
@@ -12189,6 +12277,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MG90S_R"
+		(shape output)
+		(at 391.16 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9400dcf3-7824-4339-b2b8-8728c4ca5f47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 402.7327 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW1"
+		(shape input)
+		(at 391.16 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "948c41cf-267e-4ecc-9183-908fcab5445a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 398.0156 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12369,6 +12501,50 @@
 			)
 		)
 	)
+	(global_label "Loadcell_R"
+		(shape input)
+		(at 391.16 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c74f7425-cbb8-4ed2-ac18-b9f5d02877ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.3655 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW2"
+		(shape input)
+		(at 391.16 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca464a1b-f968-4fe7-a1a4-4e90859e8682")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 398.0156 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MG90S_R"
 		(shape input)
 		(at 252.73 92.71 180)
@@ -12382,6 +12558,28 @@
 		(uuid "cb633ba3-b3d6-427b-9816-5b0a0e7d8308")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 241.1573 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Victim_LED"
+		(shape output)
+		(at 350.52 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d06a7fe7-e3e3-4090-a1ad-a0a23eceb959")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 337.3143 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12523,6 +12721,28 @@
 			)
 		)
 	)
+	(global_label "Victim_LED"
+		(shape input)
+		(at 60.96 265.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcfef1df-c4ae-445f-a1d0-a3727b413d14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.7543 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape passive)
 		(at 347.98 147.32 180)
@@ -12563,6 +12783,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAM_LED_L"
+		(shape output)
+		(at 391.16 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e79e2bc8-7d1f-4622-9127-1507a7466891")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.3656 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12690,6 +12932,28 @@
 		(uuid "faf523ee-7537-4b4c-b18c-cfdd2cf31580")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.8254 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Loadcell_L"
+		(shape input)
+		(at 350.52 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd397f05-ef90-48da-86cc-f0bb404b1104")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 337.5564 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,6 +16017,145 @@
 			(project "01-MAIN"
 				(path "/608f57ee-551f-4188-b1bc-505849ab22ca"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a1ac909-61ec-465b-9767-c24ae9b8aba1")
+		(property "Reference" "#PWR012"
+			(at 60.96 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 60.96 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "418bbcaa-1456-4373-a602-060a4897e25c")
+		)
+		(instances
+			(project "01-MAIN"
+				(path "/608f57ee-551f-4188-b1bc-505849ab22ca"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 66.04 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3afd2ea8-4b59-4ff0-932c-eaa503265d0c")
+		(property "Reference" "J16"
+			(at 68.58 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Victim_LED"
+			(at 68.58 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 66.04 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16ac14eb-511d-44c0-8fee-2220ece8fdc1")
+		)
+		(pin "1"
+			(uuid "1c8e4934-4914-4acc-ab20-519311e31acd")
+		)
+		(pin "3"
+			(uuid "86609c2f-067c-4add-b6d7-85d0ba4b90d7")
+		)
+		(instances
+			(project ""
+				(path "/608f57ee-551f-4188-b1bc-505849ab22ca"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -21159,7 +21562,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 228.6 150.368 90)
 			(effects
 				(font
@@ -21179,6 +21582,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 228.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26083"
+			(at 228.6 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22609,7 +23021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.52 122.428 90)
 			(effects
 				(font
@@ -22629,6 +23041,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 223.52 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26083"
+			(at 223.52 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27396,7 +27817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.79 187.198 90)
 			(effects
 				(font
@@ -27416,6 +27837,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 224.79 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26083"
+			(at 224.79 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27573,7 +28003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 223.52 161.798 90)
 			(effects
 				(font
@@ -27593,6 +28023,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 223.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26083"
+			(at 223.52 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28019,6 +28458,72 @@
 			(project "01-MAIN"
 				(path "/608f57ee-551f-4188-b1bc-505849ab22ca"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f36e7ecd-e76b-4e85-b97c-7214b00aa353")
+		(property "Reference" "#PWR011"
+			(at 60.96 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e8b1c14-e5de-4626-9c77-85963f6f2198")
+		)
+		(instances
+			(project "01-MAIN"
+				(path "/608f57ee-551f-4188-b1bc-505849ab22ca"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
